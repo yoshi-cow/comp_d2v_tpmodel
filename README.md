@@ -12,9 +12,10 @@ Doc2VecとTopicModelによるクラスタリング結果を比較するために
 
 ## 結果  
 ![kekka](https://user-images.githubusercontent.com/61402011/76580630-f6f11480-6513-11ea-92b1-ade1c3784038.png)  
-aaaaaaaa  
-aaaaaaaa  
-  
+作品数の少ない梶井基次郎と中島敦の作品は、どちらもうまくわけられていませんでした。  
+一方で、作品数が多い永井荷風と夏目漱石の作品は、Doc2Vecではいい具合にわけられていました。  
+単語の生起確率を求めるモデルよりも、単語の発生を推論するモデルの方が文学上の言い回しとかうまく処理できるとかあるのでしょうか？まだまだ理解が及びません。  
+
 ## 環境  
 - 小説スクレイピング： ubuntu 18.04.4 / python 3.7.6  
 - D2C,TopicModel：Google Colaboratory  
