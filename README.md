@@ -21,8 +21,8 @@ aaaaaaaa
 
 ## ファイル内容  
 - get_novel ディレクトリ：小説スクレイピング用にscrapyを利用しました。scrapy関連ファイルが入っています。  
-- Doc2Vec.ipynb：Google Colabで作成した、D2Vモデルに関するjupyter notebookファイルです。  
-- topic_model.ipynb：Google Colabで作成した、topicmodelに関するjupyter notebookファイルです。
+- Doc2Vec.ipynb：Google Colabで作成した、D2Vモデル作成に関するjupyter notebookファイルです。  
+- topic_model.ipynb：Google Colabで作成した、topicmodel作成に関するjupyter notebookファイルです。
 
 
 
