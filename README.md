@@ -18,7 +18,7 @@ Doc2VecとTopicModelによるクラスタリング結果を比較するために
 
 ## 環境  
 - 小説スクレイピング： ubuntu 18.04.4 / python 3.7.6  
-- D2C,TopicModel：Google Colaboratory  
+- D2V,TopicModel：Google Colaboratory  
 
 ## ファイル内容  
 - get_novel ディレクトリ：小説スクレイピング用にscrapyを利用しました。scrapy関連ファイルが入っています。  
