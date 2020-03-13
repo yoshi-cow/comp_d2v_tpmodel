@@ -10,7 +10,9 @@ Doc2VecとTopicModelによるクラスタリング結果を比較するために
 - 中島敦　　　２７作品  
 - 夏目漱石　　１０４作品  
 
-## 結果
+## 結果  
+![kekka](https://user-images.githubusercontent.com/61402011/76580630-f6f11480-6513-11ea-92b1-ade1c3784038.png)  
+
 
 
 
