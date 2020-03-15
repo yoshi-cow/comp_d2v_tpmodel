@@ -25,7 +25,7 @@ Doc2VecとTopicModelによるクラスタリング結果を比較するために
 - D2V,TopicModel：Google Colaboratory  
 
 ## ファイル内容  
-- get_novel ディレクトリ：小説スクレイピング用にscrapyを利用しました。scrapy関連ファイルが入っています。 抽出した小説をpandasDataFrameに入れてpickleで保存しています。 
+- get_novel ディレクトリ：小説スクレイピング用にscrapyを利用しました。scrapy関連ファイルが入っています。  抽出した小説はpandasDataFrameに入れてpickleで保存しています。 
 - Doc2Vec.ipynb：Google Colabで作成した、D2Vモデル作成に関するjupyter notebookファイルです。  
 - topic_model.ipynb：Google Colabで作成した、topicmodel作成に関するjupyter notebookファイルです。
 
