@@ -16,12 +16,16 @@ Doc2VecとTopicModelによるクラスタリング結果を比較するために
 一方で、作品数が多い永井荷風と夏目漱石の作品は、Doc2Vecではいい具合にわけられていました。  
 単語の生起確率を求めるモデルよりも、単語の発生を推論するモデルの方が文学上の言い回しとかうまく処理できるとかあるのでしょうか？まだまだ理解が及びません。  
 
+## プログラム上の問題点  
+- TopicModelでもDoc2Vecでも、パラメータの調整をしっかりおこなっておりません。ですので、特にトピックモデルのno_belowやno_aboveなどを適切に調整できたらもっと良い結果がでるかもしれません。  
+- kmeansは各クラスタの大きさが同じサイズでまとまっていくらしいので、今回のようにそれぞれのクラスタサイズが異なるケースでは、別のクラスタリング手法を用いたら、もっと良い結果が出たかもしれません。  
+
 ## 環境  
 - 小説スクレイピング： ubuntu 18.04.4 / python 3.7.6  
 - D2V,TopicModel：Google Colaboratory  
 
 ## ファイル内容  
-- get_novel ディレクトリ：小説スクレイピング用にscrapyを利用しました。scrapy関連ファイルが入っています。  
+- get_novel ディレクトリ：小説スクレイピング用にscrapyを利用しました。scrapy関連ファイルが入っています。 抽出した小説をpandasDataFrameに入れてpickleで保存しています。 
 - Doc2Vec.ipynb：Google Colabで作成した、D2Vモデル作成に関するjupyter notebookファイルです。  
 - topic_model.ipynb：Google Colabで作成した、topicmodel作成に関するjupyter notebookファイルです。
 
